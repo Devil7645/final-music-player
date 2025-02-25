@@ -1,7 +1,7 @@
 const songs = [
-   { title: "Song 1", src: "song.mp3", image: "icon.PNG" },
-   { title: "Song 2", src: "song1.mp3", image: "icon1.JPEG" },
-   { title: "Song 3", src: "song2.mp3", image: "icon2.JPEG" }
+   { title: "Song 1", src: "song.mp3", image: "icon.png" },
+   { title: "Song 2", src: "song1.mp3", image: "icon1.jpeg" },
+   { title: "Song 3", src: "song2.mp3", image: "icon2.jpeg" }
 ];
 
 let currentSongIndex = 0;
