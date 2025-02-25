@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.music-player {
+    position: relative;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Fixed width */
+}
+
+.player-area {
+    text-align: center;
+}
+
+.music-player img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.music-player h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.player-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.player-button:hover {
+    background-color: #45a049;
+}
+
+.progress-container {
+    margin-top: 15px;
+}
+
+#seek-slider {
+    width: 100%;
+}
+
+/* Menu */
+.menu-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Position below menu icon */
+    right: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 200px; /* Adjust width as needed */
+    display: none; /* Initially hidden */
+    z-index: 1000; /* Ensure it's on top */
+}
+
+.dropdown-menu h3 {
+    margin-bottom: 5px;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-menu ul li {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.dropdown-menu ul li:hover {
+    background-color: #f0f0f0;
+}
